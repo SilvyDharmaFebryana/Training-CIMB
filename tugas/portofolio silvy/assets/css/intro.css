@@ -1,0 +1,54 @@
+.container {
+    height: 500px;
+}
+
+#hello {
+    background-color: #f2f2f2;
+    height: 350px;
+}
+
+#hello1 {
+    background-color: #f2f2f2;
+    height: 350px;
+    color: rgb(238, 62, 120);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f2f2f2;
+    font-weight: 500;
+}
+
+a:hover{
+    cursor: pointer;
+    color: black;
+}
+
+.atas{
+    background-color: #ff6699;;
+    color: #f2f2f2;
+}
+
+#introduce{
+    color: rgb(238, 62, 120);
+    font-family: Thaoma;
+    font-size: 18px;
+}
+
+.intro{
+    transition: 5s;
+    opacity: 0;
+}
+
+.click:hover{
+    cursor: pointer;
+    color: #ff99bb;
+    opacity: 2;
+}
+
+.font-col{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    font-weight: 700;
+}

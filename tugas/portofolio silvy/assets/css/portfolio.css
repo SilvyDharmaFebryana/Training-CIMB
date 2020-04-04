@@ -1,0 +1,40 @@
+.atas{
+    background-color: #ff6699;;
+    color: #f2f2f2;
+}
+
+#a{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f2f2f2;
+    font-weight: 500;
+}
+
+.port{
+    font-size: 70px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 600;
+    height: 200px;
+    padding: 8px;
+    color: rgb(238, 62, 120);   
+}
+
+.container-port {
+    height: 500px;
+    background-color: #f2f2f2;  
+}
+
+.bg-grey {
+    background-color: #f2f2f2;
+
+}
+
+.bg-white{
+    background-color: white;
+    width: 300px;
+}
+
+
+.img{
+    width: 500px;
+    height: 300px;;
+}

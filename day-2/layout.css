@@ -1,0 +1,107 @@
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: grey;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+.container-space-around {
+    display: flex;
+    justify-content: space-around;
+    /* align-content: center;
+    flex: 1; */
+
+}
+
+.container-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.container-start{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-between;;
+    padding: 20px;
+}
+
+.container2 {
+    display: flex;
+}
+
+.container-height {
+    display: flex;
+    height: 500px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.text{
+    padding: 10px;
+    font-weight: 30px;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+}
+
+
+.specificity {
+    text-align: center;
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+table, tr, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.inputs {
+    font-size: 16px;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 30px;
+    width: 500px;
+}
+
+.inputs:hover {
+    -webkit-box-shadow: 6px -2px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 6px -2px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 6px -2px 16px 0px rgba(0,0,0,0.75);
+    border: 0px;
+    }
+
+.buttons{
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 4px;
+    padding: 8px, 16px;
+    font-size: 14px;
+    border: 1px solid lightgray;
+    background-color: rgb(217, 228, 238);
+    height: 40px;
+    color: #cccccc;
+}
+
+.buttons:hover {
+    cursor: pointer;
+    border: 1px solid red;
+}

@@ -1,0 +1,73 @@
+table,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+thead {
+    color: red;
+}
+
+.text-green {
+    color: green;
+}
+
+.text-blue {
+    color: blue;
+}
+
+.text-yellow {
+    color: yellow;
+}
+
+#No {
+    color: navy;
+    font-weight: bold;
+}
+
+.container {
+    border: black 2px solid;
+    margin-top: 10px;
+    width: fit-content;
+    padding: 10px;
+}
+
+.round {
+    border-radius: 8px;
+}
+
+.pill{
+    border-radius: 16px;
+}
+
+.btn-blue{
+    background-color: blue;
+    border: 2px solid blue;
+}
+
+.btn-red {
+    background-color: red;
+    border: 2px solid red;
+}
+
+.btn-black {
+    background-color: black;
+    border: 2px solid black;
+}
+
+.button {
+    padding: 8px;
+    color: white;
+    transition: backgroung-color ease-in-out 250ms, color ease-in-out 500ms;
+
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    transition: backgroung-color ease-in-out 250ms, color ease-in-out 500ms;
+}
+
+
